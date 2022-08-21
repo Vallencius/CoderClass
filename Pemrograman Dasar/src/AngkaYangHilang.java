@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class AngkaYangHilang {
   public static void main(String[] args) {
@@ -7,22 +6,17 @@ public class AngkaYangHilang {
     
     int jumlahKertas = scanner.nextInt();
     int jumlahKertasYangDitemukan = scanner.nextInt();
-
-    if(jumlahKertasYangDitemukan > jumlahKertas) {
-      return;
-    }
-
-    ArrayList<Integer> kertasYangDitemukan = new ArrayList<>();
+    ArrayList<Integer> arr = new ArrayList<>();
 
     for(int i = 0; i < jumlahKertasYangDitemukan; i++) {
-      int inputUser = scanner.nextInt();
-      kertasYangDitemukan.add(inputUser);
+      arr.add(scanner.nextInt());
     }
 
-    for(int i = 1; i < jumlahKertas; i++) {
-      if(!kertasYangDitemukan.contains(i)) {
-        System.out.println(i);
+    for(int i = 1; i <= jumlahKertas; i++) {
+      if(!arr.contains(i)){
+        System.out.print(i+" ");
       }
     }
+    scanner.close();
   }
 }

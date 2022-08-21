@@ -14,5 +14,6 @@ public class IniApaYah {
         }else{
             System.out.println("kata");
         }
+        scan.close();
     }
 }

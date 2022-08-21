@@ -7,9 +7,10 @@ int main() {
   scanf("%d", &i);
 
   int inputUser;
-  while(i-- > 0) {
+  while(i > 0) {
     scanf("%d", &inputUser);
     all[inputUser-1] = 1;
+    i--;
   }
 
   for(int i = 0; i < a; i++) {

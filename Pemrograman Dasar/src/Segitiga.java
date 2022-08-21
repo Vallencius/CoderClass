@@ -12,5 +12,7 @@ public class Segitiga {
         }else{
             System.out.println("bukan segitiga");
         }
+        scan.close();
+
     }
 }

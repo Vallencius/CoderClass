@@ -24,5 +24,6 @@ public class Berhitung {
                 System.out.println(a%b);
                 break;
         }
+        scan.close();
     }
 }

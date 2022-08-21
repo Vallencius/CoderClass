@@ -10,6 +10,5 @@ public class Permen {
             System.out.println("Kecewa :(");
         }
         scan.close();
-
     }
 }

@@ -6,5 +6,6 @@ public class AplusB {
         long a = s.nextLong();
         long b = s.nextLong();
         System.out.println((a+b));
+        s.close();
     }
 }

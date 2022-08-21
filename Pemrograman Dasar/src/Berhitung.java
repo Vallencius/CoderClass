@@ -5,6 +5,6 @@ public class Berhitung {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         char op = scan.next();
-        int b = scan.nextInt()
+        int b = scan.nextInt();
     }
 }

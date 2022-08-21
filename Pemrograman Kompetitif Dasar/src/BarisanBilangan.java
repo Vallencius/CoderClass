@@ -13,5 +13,7 @@ public class BarisanBilangan {
             }
         }
         System.out.println(hasil.size());
+        scan.close();
+
     }
 }

@@ -16,5 +16,7 @@ public class MengurutkanDataI {
         for(int i=0; i<N; i++){
             System.out.print(query[i] + " ");
         }
+        scan.close();
+
     }
 }

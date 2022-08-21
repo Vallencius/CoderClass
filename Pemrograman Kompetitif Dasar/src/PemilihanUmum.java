@@ -16,5 +16,7 @@ public class PemilihanUmum {
                 a+=a1;
             }
         }
+        scan.close();
+
     }
 }

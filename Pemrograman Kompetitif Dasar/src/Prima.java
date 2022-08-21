@@ -23,5 +23,6 @@ public class Prima {
             }
             System.out.println(num);
         }
+        scan.close();
     }
 }

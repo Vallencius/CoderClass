@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class BadakChanek {
     public static void main(String[] args){
@@ -20,5 +19,7 @@ public class BadakChanek {
             System.out.println(badak[i]);
 //            System.out.println(badak[query-1]);
         }
+        scan.close();
+
     }
 }

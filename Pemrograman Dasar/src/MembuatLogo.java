@@ -17,6 +17,7 @@ public class MembuatLogo {
         }
       }
       System.out.println();
+      scanner.close();
     }
   }
 }

@@ -9,5 +9,6 @@ public class APlusB {
         scan.close();
 
         System.out.println(a+b);
+        scan.close();
     }
 }
